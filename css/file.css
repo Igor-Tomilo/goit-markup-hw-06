@@ -620,6 +620,11 @@ img {
   height: 50px;
 }
 
+.subscribe-mail:focus {
+  outline: none;
+  border: 2px solid var(--accent-color);
+}
+  
 .subscribe-btn {
   position: relative;
   display: inline-block;
