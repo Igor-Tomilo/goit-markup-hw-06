@@ -920,13 +920,46 @@ img {
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
 
 color: #757575;
 }
 
 .modal-policy {
-  /* display: none; */
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.conteiner-checkbox {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.checkmark:hover {
+  background-color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkmark {
+  position: absolute;
+  display: inline;
+  top: 5px;
+  left: 10px;
+  height: 15px;
+  width: 16px;
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 2px;
 }
 
 /* ==================End Modal Form===================== */
