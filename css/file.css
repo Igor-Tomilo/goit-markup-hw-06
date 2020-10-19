@@ -915,12 +915,17 @@ img {
 
 .user-policy {
   display: block;
+  padding-left: 35px;
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
 
 color: #757575;
-
 }
+
+.modal-policy {
+  /* display: none; */
+}
+
 /* ==================End Modal Form===================== */
