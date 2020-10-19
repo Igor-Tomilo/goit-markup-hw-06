@@ -623,6 +623,7 @@ img {
 .subscribe-mail:focus {
   outline: none;
   border: 2px solid var(--accent-color);
+  border-radius: 2px;
 }
   
 .subscribe-btn {
