@@ -411,7 +411,7 @@
       </div>
     </div>
   </footer>
-  <!-- Backdrop -->
+  <!-------------------- Backdrop -------------------------->
   <div class="backdrop is-hidden" data-modal>
     <div class="backdrop-wrapper">
       <div class="modal">
@@ -420,7 +420,7 @@
             <use href="./images/sprite.svg#close-black"></use>
           </svg>
         </button>
-        <form action="#" class="modal-form">
+        <form action="#" name="modal-form" class="modal-form">
           <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
 
           <span class="modal-form-wrapper">
@@ -457,9 +457,8 @@
             <label class="user-policy" for="user-policy">Соглашаюсь с рассылкой и принимаю <a class="user-policy-link"
                 href="">Условия
                 договора</a></label>
-            <!-- <span class="checkmark"></span> -->
           </span>
-          <button type="submit" class="modal-button">Отправить</button>
+          <button type="submit" class="modal-button" form="modal-form">Отправить</button>
         </form>
       </div>
     </div>
