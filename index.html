@@ -401,7 +401,7 @@
       <div class="subscribe">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <form action="#" id="subscribe">
-          <input type="email" class="subscribe-mail" placeholder="E-mail">
+          <input type="email" class="subscribe-mail" name="subscribe-mail" placeholder="E-mail">
           <button type="submit" class="subscribe-btn" form="subscribe">Подписаться
             <svg class="subscribe-svg" width="24" height="24">
               <use href="./images/sprite.svg#send"></use>
@@ -411,7 +411,7 @@
       </div>
     </div>
   </footer>
-  <!-------------------- Backdrop -------------------------->
+  <!-- Backdrop -->
   <div class="backdrop is-hidden" data-modal>
     <div class="backdrop-wrapper">
       <div class="modal">
@@ -444,7 +444,7 @@
               <use href="./images/sprite.svg#vector"></use>
             </svg>
           </span>
-          <label class="" for="user-comments">Комментарий</label>
+          <label class="modal-form-label" for="user-comments">Комментарий</label>
           <textarea name="user-comments" id="user-comments" class="modal-textarea"
             placeholder="Введите текст"></textarea>
           <span class="conteiner-checkbox">
@@ -453,7 +453,7 @@
                 href="">Условия
                 договора</a></label>
           </span>
-          <button type="submit" class="modal-button" form="modal-form">Отправить</button>
+          <button type="submit" class="modal-button">Отправить</button>
         </form>
       </div>
     </div>
