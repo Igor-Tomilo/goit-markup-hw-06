@@ -994,5 +994,8 @@ img {
 .user-policy-link {
   color: var(--accent-color);
 }
+.policity-text {
+  margin-right: 5px;
+}
 
 /* ==================End Modal Form===================== */
